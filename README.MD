@@ -12,7 +12,9 @@ Proveer un feedback de aquellas experiencias relacionadas al hacking mediante el
 - Fingerprinting
 - Uso de Netcraft, whois y NMAP
 - DDOS con nmap
--------------------------------------
+
+Cualquier uso de este repo con fines malignos no es responsabilidad del creador de este, use las herramientas e informacion dispuesta aqui bajo su propio riesgo.
+
 
 
 
