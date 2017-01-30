@@ -1,0 +1,4 @@
+Herramientas usadas: 
+	
+- Burpsuite
+- DirpBuster

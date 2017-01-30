@@ -1,0 +1,13 @@
+CTF levantado por la comunidad de Hacking Chile:
+
+	- https://www.facebook.com/groups/Hacking.Chile/
+
+para ver como se resuelven los test, te invitamos a ver: 
+
+	- https://www.youtube.com/watch?v=nvhM9coDIkA&feature=youtu.be
+
+en caso de que no puedas levantar los ctf para probarlos, no dudes en contactar a los admin de hacking chile.
+
+NOTA:
+
+Los CTF levantados por la comunidad de hacking chile, son con el unico motivo de que la gente sepa como se puede llegar a vulnerar una web, pero ademas se mostró como poder solucionar estos fallos de seguridad, para que puedan aumentar la seguridad de sus aplicaciones web, cualquier mal uso que se le de a este conocimiento es meramente responsabilidad de quien lo ejecute, y libera de toda responsabilidad a los admin y a la comunidad en general llamada Hacking Chile.

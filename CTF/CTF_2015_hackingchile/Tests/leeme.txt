@@ -1,0 +1,6 @@
+si quieres montar los test en localhost o en cualquier servidor para probarlos, debes seguir los siguientes pasos:
+
+- Crear la base de datos en mysql
+- Crear un usuario con privilegios solo para realizar un update y select
+- Importar el archivo sql a tu base de datos conectada
+- Cambiar los datos de conexion en el index.php de cada test y en verificar.php en el caso del test 1
