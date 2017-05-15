@@ -616,35 +616,27 @@ pre.editor-colors .fold-marker:after {
 <li>Use redirection[yes] : Establecer a ‘no’.</li>
 <li>Base Log directory [D:\logs] : Establecer la ruta para almacenar los logs.</li>
 </ul>
-<p>Acto seguido hay que crear un proyecto. Una vez realizados estos pasos, veremos en el prompt fb&gt;</p>
+<p>Acto seguido hay que crear un proyecto. Una vez realizados estos pasos, veremos en el prompt fb</p>
 <p align="center">
-</p><p><img src="../images/prompt_1.png" title="Ilustraci&#xF3;n 1 Terminal del framework
-"></p>
-<div align="center">Ilustración 1 Terminal del framework
-.</div>
-<p></p>
-Ilustración 1 Terminal del framework
+<img src="D:\Documentos\Ramos\images\prompt_1.png" "="" title="Ilustraci&#xF3;n 1 Terminal del framework"><div align="center">Ilustración 1 Terminal del framework.</div>
+</p>
 <p>Para visualizar qué exploits hay disponibles podemos teclear <strong>Show Exploits</strong>:</p>
 <p align="center">
-</p><p>&lt;img src=“../images/prompt_2.png” title=&quot;Ilustración 2 Exploits disponibles</p>
-<p>&quot; &gt;</p>
-<div align="center">Ilustración 2 Exploits disponibles
-<p>.</p></div><p></p>
+</p><p>&lt;img src=&quot;…/images/prompt_2.png&quot;&quot; title=“Ilustración 2 Exploits disponibles” &gt;</p>
+<div align="center">Ilustración 2 Exploits disponibles.</div>
 <p></p>
 <p>Como se ha comentado anteriormente, en este post se va a explicar Eternalblue (auque no salga en la lista, está disponible) junto con Doublepulsar. Muy por encima, Eternalblue se encarga de crear un backdoor y Doublepulsar inyecta una dll en el proceso del sistema que queramos.</p>
 <h2>Eternalblue</h2>
 <p>Para hacer uso de Eternalblue hay que teclear use Eternalblue y acto seguido introducir la información solicitada por pantalla:</p>
 <p align="center">
-<img src="../images/prompt_3.jpg" title="Ilustraci&#xF3;n 3 Configurando Eternalblue">
-<div align="center">Ilustración 3 Configurando Eternalblue
-<p>.</p></div></p>
-<p></p>
+<img src="D:\Documentos\Ramos\images\prompt_3.jpg" title="Ilustraci&#xF3;n 3 Configurando Eternalblue">
+<div align="center">Ilustración 3 Configurando Eternalblue.</div>
+</p>
 <p>Si todo ha salido bien veremos el siguiente mensaje en el terminal:</p>
 <p align="center">
-<img src="../images/prompt_4.png" title="Ilustraci&#xF3;n 4 Ejecuci&#xF3;n terminada con &#xE9;xito">
-<div align="center">Ilustración 4 Ejecución terminada con éxito
-<p>.</p></div></p>
-<p></p>
+<img src="D:\Documentos\Ramos\images\prompt_4.png" title="Ilustraci&#xF3;n 4 Ejecuci&#xF3;n terminada con &#xE9;xito">
+<div align="center">Ilustración 4 Ejecución terminada con éxito.</div>
+</p>
 <h2>Doublepulsar</h2>
 <p>Con la backdor creada con Eternalblue, el próximo paso a realizar es inyectar una dll en un proceso del sistema comprometido haciendo uso de Doublepulsar.</p>
 <p>Para generar la dll podemos hacer uso de msfvenom:</p>
@@ -657,13 +649,12 @@ Ilustración 1 Terminal del framework
 </div></pre>
 <p>Volviendo a Doublepulsar, como en el proceso anterior hay que introducir la información que va apareciendo en el terminal:</p>
 <p align="center">
-<img src="../images/prompt_5.png" title="Ilustraci&#xF3;n 5 Configuraci&#xF3;n Doublepulsar">
-<div align="center">Ilustración 5 Configuración Doublepulsar
-.</div>
+<img src="D:\Documentos\Ramos\images\prompt_5.png" title="Ilustraci&#xF3;n 5 Configuraci&#xF3;n Doublepulsar">
+<div align="center">Ilustración 5 Configuración Doublepulsar.</div>
 </p>
 <p>Si lo hemos hecho todo bien, tendremos en nuestro equipo local un meterpreter con privilegios SYSTEM sobre la máquina virtual víctima. <strong>Con unos sencillos pasos y un par de clicks hemos llegado a comprometer un equipo conociendo solo su dirección IP</strong>.</p>
 <p align="center">
-<img src="../images/prompt_6.jpg" title="Ilustraci&#xF3;n 6 Sesi&#xF3;n de meterpreter">
+<img src="D:\Documentos\Ramos\images\prompt_6.jpg" title="Ilustraci&#xF3;n 6 Sesi&#xF3;n de meterpreter">
 <div align="center">Ilustración 6 Sesión de meterpreter.</div>
 </p>
 <p>Por último y no menos importante, una vez tengamos la conexión con el meterpreter deberemos volver a ejecutar Doublepulsar y seleccionar la opción:</p>
@@ -671,9 +662,8 @@ Ilustración 1 Terminal del framework
 </div></pre>
 <p>Para eliminar la backdoor, puesto que ya no la necesitamos.</p>
 <p align="center">
-<img src="../images/prompt_7.png" title="Ilustraci&#xF3;n 7 Eliminaci&#xF3;n de la backdoor">
-<div align="center">Ilustración 7 Eliminación de la backdoor
-</div>
+<img src="D:\Documentos\Ramos\images\prompt_7.png" title="Ilustraci&#xF3;n 7 Eliminaci&#xF3;n de la backdoor">
+<div align="center">Ilustración 7 Eliminación de la backdoor </div>
 </p>
 <p>Como se ha podido observar, resulta alarmante la facilidad con la que se consigue comprometer un sistema Windows haciendo uso de estos exploits.</p>
 <p>En estos momentos creo que todo el mundo se estará preguntando: ¿si esto es lo que se ha publicado, que más cosas tendrán los chicos buenos de la NSA?</p>

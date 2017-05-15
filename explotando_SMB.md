@@ -40,28 +40,19 @@ Desde el directorio EQGRP_Lost_in_Translation/windows ejecutamos Python fb.py pa
 - Use redirection[yes] : Establecer a ‘no’.
 - Base Log directory [D:\logs] : Establecer la ruta para almacenar los logs.
 
-Acto seguido hay que crear un proyecto. Una vez realizados estos pasos, veremos en el prompt fb>
+Acto seguido hay que crear un proyecto. Una vez realizados estos pasos, veremos en el prompt fb
 
 <p align="center">
-
-<img src="imagenes/prompt_1.png" title="Ilustración 1 Terminal del framework
-" >
-<div align="center">Ilustración 1 Terminal del framework
-.</div>
+<img src="../images/prompt_1.png"" title="Ilustración 1 Terminal del framework" ><div align="center">Ilustración 1 Terminal del framework.</div>
 
 </p>
-Ilustración 1 Terminal del framework
 
 Para visualizar qué exploits hay disponibles podemos teclear **Show Exploits**:
 
 <p align="center">
 
-<img src="imagenes/prompt_2.png" title="Ilustración 2 Exploits disponibles
-
-" >
-<div align="center">Ilustración 2 Exploits disponibles
-
-.</div>
+<img src="../images/prompt_2.png"" title="Ilustración 2 Exploits disponibles" >
+<div align="center">Ilustración 2 Exploits disponibles.</div>
 
 </p>
 
@@ -73,10 +64,8 @@ Para hacer uso de Eternalblue hay que teclear use Eternalblue y acto seguido int
 
 <p align="center">
 
-<img src="imagenes/prompt_3.jpg" title="Ilustración 3 Configurando Eternalblue" >
-<div align="center">Ilustración 3 Configurando Eternalblue
-
-.</div>
+<img src="../images/prompt_3.jpg" title="Ilustración 3 Configurando Eternalblue" >
+<div align="center">Ilustración 3 Configurando Eternalblue.</div>
 
 </p>
 
@@ -84,10 +73,8 @@ Si todo ha salido bien veremos el siguiente mensaje en el terminal:
 
 <p align="center">
 
-<img src="imagenes/prompt_4.png" title="Ilustración 4 Ejecución terminada con éxito" >
-<div align="center">Ilustración 4 Ejecución terminada con éxito
-
-.</div>
+<img src="../images/prompt_4.png" title="Ilustración 4 Ejecución terminada con éxito" >
+<div align="center">Ilustración 4 Ejecución terminada con éxito.</div>
 
 </p>
 
@@ -109,9 +96,8 @@ Volviendo a Doublepulsar, como en el proceso anterior hay que introducir la info
 
 <p align="center">
 
-<img src="imagenes/prompt_5.png" title="Ilustración 5 Configuración Doublepulsar" >
-<div align="center">Ilustración 5 Configuración Doublepulsar
-.</div>
+<img src="../images/prompt_5.png" title="Ilustración 5 Configuración Doublepulsar" >
+<div align="center">Ilustración 5 Configuración Doublepulsar.</div>
 
 </p>
 
@@ -119,7 +105,7 @@ Si lo hemos hecho todo bien, tendremos en nuestro equipo local un meterpreter co
 
 <p align="center">
 
-<img src="imagenes/prompt_6.jpg" title="Ilustración 6 Sesión de meterpreter" >
+<img src="../images/prompt_6.jpg" title="Ilustración 6 Sesión de meterpreter" >
 <div align="center">Ilustración 6 Sesión de meterpreter.</div>
 
 </p>
@@ -132,9 +118,8 @@ Para eliminar la backdoor, puesto que ya no la necesitamos.
 
 <p align="center">
 
-<img src="imagenes/prompt_7.png" title="Ilustración 7 Eliminación de la backdoor" >
-<div align="center">Ilustración 7 Eliminación de la backdoor
-</div>
+<img src="../images/prompt_7.png" title="Ilustración 7 Eliminación de la backdoor" >
+<div align="center">Ilustración 7 Eliminación de la backdoor </div>
 
 </p>
 
